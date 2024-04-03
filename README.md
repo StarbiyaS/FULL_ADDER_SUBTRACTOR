@@ -37,6 +37,13 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
+**Full adder**
+
+![image](https://github.com/StarbiyaS/FULL_ADDER_SUBTRACTOR/assets/144870533/6fe24a79-f843-4b9d-ac52-47de7d365f33)
+
+**Full subtractor**
+![image](https://github.com/StarbiyaS/FULL_ADDER_SUBTRACTOR/assets/144870533/6cf3aadf-31fe-47fb-96bc-422a73325db5)
+
 
 **Procedure**
 
@@ -44,12 +51,40 @@ Write the detailed procedure here
 
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
-
+/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: STARBIYA S RegisterNumber:212223040208
+**full adder**
+```
+ module exp4(a,b,c,sum,carry);
+ input a,b,c;
+ output sum,carry;
+ xor(sum,a,b,c);
+ assign carry=a&b | b&c | a&c;
+ endmodule
+```
+**full subtractor**
+```
+ module exp4(diff,carry,a,b,c);
+ input a,b,c;
+ output diff,carry;
+ xor(diff,a,b,c);
+ assign carry= (~a)&c | (~a)&b | (b&c);
+ endmodule
+```
 **RTL Schematic**
+**Full adder**
+![image](https://github.com/StarbiyaS/FULL_ADDER_SUBTRACTOR/assets/144870533/2e4a632c-c76c-4e23-ae63-37b0ae3e9a38)
 
-**Output Timing Waveform**
+**Full subtractor**
+![image](https://github.com/StarbiyaS/FULL_ADDER_SUBTRACTOR/assets/144870533/86002a58-aac4-412f-aa16-de8a50a13635)
+
+
+## Output Timing Waveform
+**Full adder**
+![image](https://github.com/StarbiyaS/FULL_ADDER_SUBTRACTOR/assets/144870533/6f12528c-2a73-4189-8555-6aa763bff6eb)
+
+**Full subtractor**
+
+![image](https://github.com/StarbiyaS/FULL_ADDER_SUBTRACTOR/assets/144870533/b6504851-c494-4911-8c27-3b13b1d0798b)
 
 **Result:**
 
