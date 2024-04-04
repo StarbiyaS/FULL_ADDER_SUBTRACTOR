@@ -76,7 +76,9 @@ Write the detailed procedure here
 
 
 
+
 **Full subtractor**
+
 ![image](https://github.com/StarbiyaS/FULL_ADDER_SUBTRACTOR/assets/144870533/86002a58-aac4-412f-aa16-de8a50a13635)
 
 
@@ -84,12 +86,13 @@ Write the detailed procedure here
 
 ## Output Timing Waveform
 **Full adder**
+
 ![image](https://github.com/StarbiyaS/FULL_ADDER_SUBTRACTOR/assets/144870533/6f12528c-2a73-4189-8555-6aa763bff6eb)
 
 
 
-**Full subtractor**
 
+**Full subtractor**
 ![image](https://github.com/StarbiyaS/FULL_ADDER_SUBTRACTOR/assets/144870533/b6504851-c494-4911-8c27-3b13b1d0798b)
 
 
