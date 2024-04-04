@@ -42,6 +42,7 @@ Borrow out = A'Bin + A'B + BBin
 ![image](https://github.com/StarbiyaS/FULL_ADDER_SUBTRACTOR/assets/144870533/6fe24a79-f843-4b9d-ac52-47de7d365f33)
 
 **Full subtractor**
+
 ![image](https://github.com/StarbiyaS/FULL_ADDER_SUBTRACTOR/assets/144870533/6cf3aadf-31fe-47fb-96bc-422a73325db5)
 
 
