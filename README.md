@@ -70,21 +70,28 @@ Write the detailed procedure here
  assign carry= (~a)&c | (~a)&b | (b&c);
  endmodule
 ```
-**RTL Schematic**
-**Full adder**
+**RTL Schematic Full adder:**
+
 ![image](https://github.com/StarbiyaS/FULL_ADDER_SUBTRACTOR/assets/144870533/2e4a632c-c76c-4e23-ae63-37b0ae3e9a38)
 
+
 **Full subtractor**
+
 
 ![image](https://github.com/StarbiyaS/FULL_ADDER_SUBTRACTOR/assets/144870533/86002a58-aac4-412f-aa16-de8a50a13635)
 
 
 ## Output Timing Waveform
+
 **Full adder**
+
+
 ![image](https://github.com/StarbiyaS/FULL_ADDER_SUBTRACTOR/assets/144870533/6f12528c-2a73-4189-8555-6aa763bff6eb)
 
 
 **Full subtractor**
+
+
 ![image](https://github.com/StarbiyaS/FULL_ADDER_SUBTRACTOR/assets/144870533/b6504851-c494-4911-8c27-3b13b1d0798b)
 
 
